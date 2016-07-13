@@ -38,6 +38,7 @@ public class Main {
             try (FileWriter FW = new FileWriter(file.getParent() + "/output.txt")) {
                 FW.write(String.valueOf(sum));
             }
+            fileScanner.close();
             System.out.print("Elapsed time is: ");
             System.out.print(System.currentTimeMillis() - start);
             System.out.println(" ms.");

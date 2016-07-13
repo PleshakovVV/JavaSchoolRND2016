@@ -32,6 +32,7 @@ public class Main {
             try (FileWriter FW = new FileWriter(file.getParent() + "/output.txt")) {
                 FW.write(String.valueOf((int)Math.ceil((Math.sqrt(8*N + 1) - 1)/2)));
             }
+            fileScanner.close();
             System.out.print("Elapsed time is: ");
             System.out.print(System.currentTimeMillis() - start);
             System.out.println(" ms.");

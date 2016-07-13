@@ -1,4 +1,4 @@
-package homeWork1._2001;
+package homeWork1._2020;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -7,14 +7,13 @@ import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.InputMismatchException;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 /**
  * Created by Master on 12.07.2016.
  */
 public class Main {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         File file = null;
         if (args.length > 0) {
             file = new File(args[0]);
@@ -29,11 +28,37 @@ public class Main {
         long start = System.currentTimeMillis();
         Scanner fileScanner = new Scanner(file);
         try {
-            int a = fileScanner.nextInt();
-            int b = fileScanner.nextInt();
-            fileScanner.close();
+            int N = fileScanner.nextInt();
+            if (N == 0) return;
+            int value = fileScanner.nextInt();
+            int counter = 1;
+            int previousValue = value;
+            int currentValue = value;
+            int tempCounter = 1;
+            for (int i = 1; i < N; i++) {
+                currentValue = fileScanner.nextInt();
+                if (currentValue == previousValue) {
+                    tempCounter++;
+                }
+                else {
+                    if (tempCounter > counter) {
+                        value = previousValue;
+                        counter = tempCounter;
+                        tempCounter = 1;
+                    }
+                    else {
+                        tempCounter = 1;
+                    }
+                }
+                previousValue = currentValue;
+            }
+            if (tempCounter > counter) {
+                value = currentValue;
+                counter = tempCounter;
+            }
+
             try (FileWriter FW = new FileWriter(file.getParent() + "/output.txt")) {
-                FW.write(String.valueOf(a + b));
+                FW.write(value + " " + counter);
             }
             System.out.print("Elapsed time is: ");
             System.out.print(System.currentTimeMillis() - start);
@@ -41,9 +66,10 @@ public class Main {
         }
         catch (InputMismatchException e) {
             System.out.println("Cannot read Integer value from file.");
+            
         }
-        catch (NoSuchElementException e) {
-            System.out.println("There is not enough values in a file.");
+        finally {
+            fileScanner.close();
         }
     }
 }
