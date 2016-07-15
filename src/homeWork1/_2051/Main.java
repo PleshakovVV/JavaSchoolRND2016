@@ -1,7 +1,6 @@
-package homeWork1._2053;
+package homeWork1._2051;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
