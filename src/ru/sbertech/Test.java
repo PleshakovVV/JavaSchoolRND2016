@@ -1,4 +1,4 @@
-package classWork;
+package ru.sbertech;
 
 /**
  * Created by Student on 15.07.2016.
