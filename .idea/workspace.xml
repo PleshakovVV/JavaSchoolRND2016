@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Example3_TreeSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/other/Example3_TreeSet.java" afterPath="$PROJECT_DIR$/src/other/Example3_TreeSet.java" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +88,8 @@
       <file leaf-file-name="Example3_TreeSet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/other/Example3_TreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -666,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468865838844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ДЗ">
+      <created>1468866396938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1468866396938</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,7 +721,8 @@
     <MESSAGE value="Настройка git на Комарова" />
     <MESSAGE value="Что-то там с пакетами" />
     <MESSAGE value="Коллекции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коллекции" />
+    <MESSAGE value="ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other/Example3_TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>
