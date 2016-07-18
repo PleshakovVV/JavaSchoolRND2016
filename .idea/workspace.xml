@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/PersonFirstLoad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/beforeGenerics/Apple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/beforeGenerics/CollectionBeforeGenerics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/beforeGenerics/Orange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/examples/Example1_ArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/examples/Example2_LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/examples/Example3_Set.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lession3/examples/Example4_Map.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/sbertech/Test.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Example3_TreeSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaSchoolRND2016.iml" afterPath="$PROJECT_DIR$/JavaSchoolRND2016.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/output.txt" afterPath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/output.txt" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,16 +71,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonFirstLoad.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonFirstLoad.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sbt/lession3/PersonFirstLoad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#init#0;class#PersonFirstLoad#0" expanded="false" />
                 <element signature="method#init#1;class#PersonFirstLoad#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example3_TreeSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/other/Example3_TreeSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/com/sbt/lession3/Person.java" />
         <option value="$PROJECT_DIR$/src/com/sbt/lession3/examples/Example4_Map.java" />
         <option value="$PROJECT_DIR$/src/com/sbt/lession3/PersonFirstLoad.java" />
+        <option value="$PROJECT_DIR$/src/other/Example3_TreeSet.java" />
       </list>
     </option>
   </component>
@@ -219,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="homeWork2" />
+              <option name="myItemId" value="other" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,46 +234,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lession3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lession3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,6 +253,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sbt.lession3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\IdeaProjects\JavaSchoolRND2016\src\other" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Example4_Map">
@@ -696,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468600548647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Коллекции">
+      <created>1468865838844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1468865838844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -743,7 +713,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Настройка git на Комарова" />
     <MESSAGE value="Что-то там с пакетами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Что-то там с пакетами" />
+    <MESSAGE value="Коллекции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коллекции" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -756,13 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/homeWork1/_2035/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeWork1/_2002/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -937,6 +901,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,12 +1017,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/sbt/lession3/PersonFirstLoad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#PersonFirstLoad#0" expanded="false" />
             <element signature="method#init#1;class#PersonFirstLoad#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/Example3_TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
