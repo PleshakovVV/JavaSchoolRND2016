@@ -40,6 +40,11 @@ public class test {
         listForAdd.add("B");
         list.addAll(listForAdd);
         System.out.println(list);
+        System.out.println("---FOREACH---");
+        for (String str : list) {
+            System.out.println(str);
+            list.add("C");
+        }
     }
 
 }
