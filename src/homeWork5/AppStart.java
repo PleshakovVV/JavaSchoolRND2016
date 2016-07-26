@@ -30,17 +30,22 @@ public class AppStart {
                 System.out.println("An error occur during trying to find address: " + e.getMessage());
             }
 
-            try (BufferedReader BR = new BufferedReader(new InputStreamReader(url.openConnection().getInputStream(), Charset.forName("UTF-8")))) {
-                String tempString;
-                while ((tempString = BR.readLine()) != null) {
-                    System.out.println(tempString);
-                }
-                System.out.println("\n---END---");
+            readContent(url);
+
+            System.out.println("The program end.");
+        }
+    }
+
+    private static void readContent(URL url) {
+        try (BufferedReader BR = new BufferedReader(new InputStreamReader(url.openConnection().getInputStream(), Charset.forName("UTF-8")))) {
+            String tempString;
+            while ((tempString = BR.readLine()) != null) {
+                System.out.println(tempString);
             }
-            catch (IOException e) {
-                System.out.println("An error occur during get content: " + e.getMessage());
-                System.out.println("The program end.");
-            }
+            System.out.println("\n---END---");
+        }
+        catch (IOException e) {
+            System.out.println("An error occur during get content: " + e.getMessage());
         }
     }
 }
