@@ -23,14 +23,13 @@ public class AppStart {
                     System.exit(0);
                 }
                 url = new URL(address);
+                readContent(url);
 
                 isConnect = true;
             }
-            catch (MalformedURLException e) {
+            catch (MalformedURLException | RuntimeException e) {
                 System.out.println("An error occur during trying to find address: " + e.getMessage());
             }
-
-            readContent(url);
 
             System.out.println("The program end.");
         }
