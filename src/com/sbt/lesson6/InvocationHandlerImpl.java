@@ -21,7 +21,7 @@ public class InvocationHandlerImpl implements InvocationHandler {
         System.out.println("Start " + method.getName());
         Object result = method.invoke(delegate, args);
         System.out.println("End method " + method.getName() + "result: " + result);
-        return null;
+        return result;
     }
 
     public static void main(String[] args) {
