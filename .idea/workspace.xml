@@ -2,6 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lecture7_DZ.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд1.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд10.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд11.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд12.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд13.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд14.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд15.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд16.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд17.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд18.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд19.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд2.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд20.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд21.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд22.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд23.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд24.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд25.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд26.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд27.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд28.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд29.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд3.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд30.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд31.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд32.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд33.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд4.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд5.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд6.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд7.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд8.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Lesson7/Лекция 7 Classloaders/Слайд9.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
@@ -207,46 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sbt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaSchoolRND2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sbt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -774,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470073437248</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="home work 5">
+      <created>1470073567869</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1470073567869</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
