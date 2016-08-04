@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/unit testing.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/src/main/java/ru/sbrf/course/DiscountRegistryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/src/test/java/ru/sbrf/course/CalculatorUTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/src/test/java/ru/sbrf/course/OrderControllerUTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/src/test/java/ru/sbrf/course/OrderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/UnitTesting/unittesting.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/Задания.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaSchoolRND2016.iml" afterPath="$PROJECT_DIR$/JavaSchoolRND2016.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sbt/lesson8/BuildTools/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/com/sbt/lesson8/BuildTools/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWork7/PluginManager.java" afterPath="$PROJECT_DIR$/src/homeWork7/PluginManager.java" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -779,7 +790,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470329342404</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="class work">
+      <created>1470336447946</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1470336447946</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
