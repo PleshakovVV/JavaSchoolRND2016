@@ -4,6 +4,8 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 
 /**
@@ -19,9 +21,11 @@ public class PluginManager {
     public Plugin load(String pluginName, String pluginClassName)
             throws MalformedURLException, ClassNotFoundException, IllegalAccessException, InstantiationException {
         String path = pluginRootDirectory + "/" + pluginName + "/";
+
         File file = new File(path);
 
-        URLClassLoader urlClassLoader = new URLClassLoader(new URL[] {file.toURL()}, null);
+        URLClassLoader urlClassLoader = new URLClassLoader(new URL[] {file.toURI().toURL()});
+
         Class cl = urlClassLoader.loadClass(pluginClassName);
         if (!Arrays.asList(cl.getInterfaces()).contains(Plugin.class)) {
             throw new ClassNotFoundException("The class doesn't implements Plugin interface!");

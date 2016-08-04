@@ -7,7 +7,7 @@ import java.net.MalformedURLException;
  */
 public class AppStart {
     public static void main(String[] args) {
-        PluginManager pluginManager = new PluginManager("file:/C:/Users/Student/IdeaProjects/JavaSchoolRND2016/ext");
+        PluginManager pluginManager = new PluginManager("C:/Users/Master/IdeaProjects/JavaSchoolRND2016/ext");
         try {
             Plugin plugin = pluginManager.load("PluginName","homeWork7.PluginImpl");
             plugin.doUsefil();
