@@ -1,62 +1,85 @@
+import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Master on 08.08.2016.
  */
+@RunWith(MockitoJUnitRunner.class)
 public class TestReverseIterator {
 
     ReverseIterator<String> reverseIterator;
 
-    List<String> list;
-
-    @Before
-    public void init() {
-        list = new ArrayList<>();
-    }
+    @Mock
+    List<String> mockList;
 
     @Test
     public void testHasNextEmptyList() {
-        reverseIterator = new ReverseIterator<>(list);
+
+        when(mockList.get(anyInt())).thenThrow(new IndexOutOfBoundsException());
+        when(mockList.size()).thenReturn(0);
+
+        reverseIterator = new ReverseIterator<>(mockList);
         assertFalse(reverseIterator.hasNext());
     }
 
     @Test
     public void testHasNextNotEmptyList() {
-        list.add("1");
-        reverseIterator = new ReverseIterator<>(list);
+
+        when(mockList.get(anyInt())).thenReturn("1");
+        when(mockList.size()).thenReturn(1);
+
+        reverseIterator = new ReverseIterator<>(mockList);
         assertTrue(reverseIterator.hasNext());
     }
 
     @Test
     public void testNextEmptyList() {
-        reverseIterator = new ReverseIterator<>(list);
+
+        when(mockList.get(anyInt())).thenThrow(new IndexOutOfBoundsException());
+        when(mockList.size()).thenReturn(0);
+
+        reverseIterator = new ReverseIterator<>(mockList);
         assertNull(reverseIterator.next());
     }
 
     @Test
     public void testNextNotEmptyList() {
-        list.add("1");
-        reverseIterator = new ReverseIterator<>(list);
+
+        when(mockList.get(anyInt())).thenReturn("1");
+        when(mockList.size()).thenReturn(1);
+
+        reverseIterator = new ReverseIterator<>(mockList);
         assertNotNull(reverseIterator.next());
     }
 
     @Test
-    public void testRemoveNotEmpty() {
-        list.add("1");
-        reverseIterator = new ReverseIterator<>(list);
-        assertEquals(1,list.size());
+    public void testRemoveNotEmptyList() {
+
+        when(mockList.get(anyInt())).thenReturn("1");
+        when(mockList.size()).thenReturn(1, 1, 0);
+
+        reverseIterator = new ReverseIterator<>(mockList);
+        int size1 = mockList.size();
+        int size2 = mockList.size();
+        assertEquals(1,size1);
         reverseIterator.remove();
-        assertEquals(0, list.size());
+        assertEquals(0, size2);
     }
 
     @Test(expected =  IndexOutOfBoundsException.class)
-    public void testRemoveExceptionEmpty() {
-        reverseIterator = new ReverseIterator<>(list);
+    public void testRemoveExceptionEmptyList() {
+
+        when(mockList.get(anyInt())).thenThrow(new IndexOutOfBoundsException());
+        when(mockList.size()).thenReturn(0);
+        when(mockList.remove(anyInt())).thenThrow(new IndexOutOfBoundsException());
+
+        reverseIterator = new ReverseIterator<>(mockList);
         reverseIterator.remove();
     }
 }
