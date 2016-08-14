@@ -1,4 +1,4 @@
-package ru.sbt;
+package other.hw9;
 
 import java.io.Console;
 import java.io.File;

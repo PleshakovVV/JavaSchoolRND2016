@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSchoolRND2016.iml" filepath="$PROJECT_DIR$/JavaSchoolRND2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/homeWork10/Lambda.iml" filepath="$PROJECT_DIR$/src/homeWork10/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/homeWork9/Messenger.iml" filepath="$PROJECT_DIR$/src/homeWork9/Messenger.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWork8/ReverseIterator.iml" filepath="$PROJECT_DIR$/src/homeWork8/ReverseIterator.iml" />
     </modules>
   </component>
