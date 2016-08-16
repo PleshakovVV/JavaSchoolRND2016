@@ -74,5 +74,6 @@ public class AppStart {
         System.out.println("Sum of letter is: " + sumHolder.getSum());
         System.out.println("Counted by " + ThreadingPool.getThreadNumber() + " threads.");
         System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.");
+
     }
 }
