@@ -53,6 +53,7 @@ public class AppStart {
         int part = list.size()/ThreadingPool.getThreadNumber();
 
         List<Thread> threadHolder = new ArrayList<>();
+        long start = System.currentTimeMillis();
         for (int i = 0; i < ThreadingPool.getThreadNumber(); i++) {
             Thread t = new Thread(new CountTask(sumHolder, list, i * part, (i + 1) * part));
             threadHolder.add(t);
@@ -71,5 +72,7 @@ public class AppStart {
         }
 
         System.out.println("Sum of letter is: " + sumHolder.getSum());
+        System.out.println("Counted by " + ThreadingPool.getThreadNumber() + " threads.");
+        System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.");
     }
 }
