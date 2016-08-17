@@ -2,6 +2,7 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -73,7 +74,14 @@ public class AppStart {
 
         System.out.println("Sum of letter is: " + sumHolder.getSum());
         System.out.println("Counted by " + ThreadingPool.getThreadNumber() + " threads.");
-        System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.");
+        System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.\n");
 
+        System.out.println("Sum of letter over stream API:");
+        start = System.currentTimeMillis();
+        System.out.println(list.parallelStream()
+                .flatMap(s -> Arrays.stream(s.split("")))
+                .filter(s -> s.length() > 0 && Character.isLetter(s.codePointAt(0)))
+                .count());
+        System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.");
     }
 }
