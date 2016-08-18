@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Created by Master on 13.08.2016.
@@ -30,8 +30,12 @@ public class Main {
 
         newList.stream().sorted().forEach(System.out::println);
 
-        System.out.println("More then zero:");
-        newList = newList.stream().filter((i) -> i.intValue() > 0).collect(Collectors.toList());
-        newList.stream().forEach(System.out::println);
+        // Predicate
+        System.out.println("Test predicate. More then zero:");
+        newList.stream().filter((i) -> i.intValue() > 0).forEach(System.out::println);
+
+        //Function
+        System.out.println("Test function. Square:");
+        newList.stream().map(i -> Math.pow(i, 2)).forEach(System.out::println);
     }
 }
