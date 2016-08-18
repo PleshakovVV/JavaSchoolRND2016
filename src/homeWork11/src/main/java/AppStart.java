@@ -51,18 +51,23 @@ public class AppStart {
 
         // Count letters
         SumHolder sumHolder = new SumHolder();
-        int part = list.size()/ThreadingPool.getThreadNumber();
+        int part = (int)Math.ceil(1.0D * list.size()/ThreadingPool.getThreadNumber());
 
         List<Thread> threadHolder = new ArrayList<>();
         long start = System.currentTimeMillis();
         for (int i = 0; i < ThreadingPool.getThreadNumber(); i++) {
-            Thread t = new Thread(new CountTask(sumHolder, list, i * part, (i + 1) * part));
-            threadHolder.add(t);
-            t.start();
+            if (i != ThreadingPool.getThreadNumber() - 1) {
+                Thread t = new Thread(new CountTask(sumHolder, list, i * part, (i + 1) * part));
+                threadHolder.add(t);
+                t.start();
+            }
+            else {
+                Thread t = new Thread(new CountTask(sumHolder, list, i * part, list.size()));
+                threadHolder.add(t);
+                t.start();
+            }
         }
-        Thread t = new Thread(new CountTask(sumHolder, list, part * ThreadingPool.getThreadNumber(), list.size()));
-        threadHolder.add(t);
-        t.start();
+
         // Waiting
         try {
             for (Thread thread : threadHolder) {
@@ -73,10 +78,10 @@ public class AppStart {
         }
 
         System.out.println("Sum of letter is: " + sumHolder.getSum());
-        System.out.println("Counted by " + ThreadingPool.getThreadNumber() + " threads.");
+        System.out.println("Counted by " + threadHolder.size() + " threads.");
         System.out.println("Elapsed time is: " + (System.currentTimeMillis() - start) + " ms.\n");
 
-        System.out.println("Sum of letter over stream API:");
+        System.out.println("Sum of letter over parallel stream API:");
         start = System.currentTimeMillis();
         System.out.println(list.parallelStream()
                 .flatMap(s -> Arrays.stream(s.split("")))
