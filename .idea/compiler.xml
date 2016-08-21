@@ -26,6 +26,7 @@
         <module name="Messenger" />
         <module name="ReverseIterator" />
         <module name="Threading1" />
+        <module name="Threading1_2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="Messenger" target="1.8" />
       <module name="ReverseIterator" target="1.8" />
       <module name="Threading1" target="1.8" />
+      <module name="Threading1_2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

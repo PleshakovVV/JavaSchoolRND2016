@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSchoolRND2016.iml" filepath="$PROJECT_DIR$/JavaSchoolRND2016.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWork10/Lambda.iml" filepath="$PROJECT_DIR$/src/homeWork10/Lambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/homeWork11/Lambda (1) (homeWork11).iml" filepath="$PROJECT_DIR$/src/homeWork11/Lambda (1) (homeWork11).iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWork9/Messenger.iml" filepath="$PROJECT_DIR$/src/homeWork9/Messenger.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWork8/ReverseIterator.iml" filepath="$PROJECT_DIR$/src/homeWork8/ReverseIterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWork11/Threading1.iml" filepath="$PROJECT_DIR$/src/homeWork11/Threading1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/homeWork11_2/Threading1_2.iml" filepath="$PROJECT_DIR$/src/homeWork11_2/Threading1_2.iml" />
     </modules>
   </component>
 </project>
