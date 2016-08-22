@@ -17,6 +17,7 @@ public class ThreadPool {
         @Override
         public void run() {
             while (!interrupted()) {
+                Runnable runnable;
                 synchronized (taskQueue) {
                     while (taskQueue.isEmpty()) {
                         try {
@@ -25,8 +26,9 @@ public class ThreadPool {
                             interrupt();
                         }
                     }
-                    taskQueue.poll().run();
+                    runnable = taskQueue.poll();
                 }
+                runnable.run();
                 try {
                     Thread.currentThread().sleep(2000);
                 } catch (InterruptedException e) {
