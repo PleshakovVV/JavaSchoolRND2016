@@ -6,6 +6,7 @@ import java.lang.reflect.Proxy;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by Master on 31.07.2016.
@@ -16,7 +17,7 @@ public class ProxyUtils {
 
         private T t;
 
-        private Map<MethodArgs, Object> cache = new HashMap<>();
+        private Map<MethodArgs, Object> cache = new ConcurrentHashMap<>();
 
         public InvocationHandlerImpl(T t) {
             this.t = t;
