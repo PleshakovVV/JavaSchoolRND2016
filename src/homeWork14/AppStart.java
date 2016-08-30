@@ -16,5 +16,6 @@ public class AppStart {
         }
         Cosinusable cosinusable = (Cosinusable)cachedSin;
         cosinusable.getCos(3D);
+        executorService.shutdown();
     }
 }

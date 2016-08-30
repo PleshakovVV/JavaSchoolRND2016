@@ -10,14 +10,34 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.io.*;
+import java.net.Socket;
+
 /**
  * Created by Master on 13.08.2016.
  */
 public class Client extends Application {
     private static final double DOUBLE_SPACE = 10.0D;
+    private Socket socket;
+    private TextArea messageTextArea  = new TextArea();
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        socket = new Socket("localhost", 5151);
+
+        final Socket finalSocket = socket;
+        new Thread(() -> {
+            while (true) {
+                try {
+                    BufferedReader BR = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    messageTextArea.appendText(BR.readLine());
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+
         VBox vBox = new VBox(DOUBLE_SPACE);
         vBox.setPadding(new Insets(DOUBLE_SPACE, DOUBLE_SPACE, DOUBLE_SPACE, DOUBLE_SPACE));
 
@@ -29,7 +49,6 @@ public class Client extends Application {
         TextField loginTextField = new TextField();
 
         Label messageLabel = new Label("Message:");
-        TextArea messageTextArea = new TextArea();
         messageTextArea.setPrefRowCount(3);
 
         gridPane.getChildren().addAll(loginLabel, loginTextField, messageLabel, messageTextArea);
@@ -41,7 +60,10 @@ public class Client extends Application {
         VBox alignVBox = new VBox();
         alignVBox.setSpacing(DOUBLE_SPACE);
         Button sendButton = new Button("Send");
-        //sendButton.setOnAction();
+        sendButton.setOnAction((actionEvent) -> {
+            BufferedWriter BW = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+            BW.write();
+        });
         alignVBox.getChildren().addAll(sendButton, new Label("Messages:"));
         alignVBox.setAlignment(Pos.CENTER);
 
@@ -53,5 +75,12 @@ public class Client extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("MessageClient");
         primaryStage.show();
+    }
+
+    @Override
+    public void stop() throws Exception {
+        if (socket != null) {
+            socket.close();
+        }
     }
 }
