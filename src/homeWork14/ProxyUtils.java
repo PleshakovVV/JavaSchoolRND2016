@@ -6,7 +6,8 @@ import java.lang.reflect.Proxy;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by Master on 31.07.2016.
@@ -17,7 +18,8 @@ public class ProxyUtils {
 
         private T t;
 
-        private Map<MethodArgs, Object> cache = new ConcurrentHashMap<>();
+        private Map<MethodArgs, LockAndObject> cache = new HashMap<>();
+        private Lock cacheLock = new ReentrantLock();
 
         public InvocationHandlerImpl(T t) {
             this.t = t;
@@ -29,14 +31,32 @@ public class ProxyUtils {
             if (method.isAnnotationPresent(Cache.class)) {
 
                 MethodArgs methodArgs = new MethodArgs(method, args);
+                cacheLock.lock();
+                System.out.println(Thread.currentThread().getName() + ": Cache locked");
                 if (cache.containsKey(methodArgs)) {
+                    Lock elementLock = cache.get(methodArgs).getLock();
+                    cacheLock.unlock();
+                    System.out.println(Thread.currentThread().getName() + ": Cache unlocked");
+                    elementLock.lock();
+                    System.out.println(Thread.currentThread().getName() + ": Element locked");
+                    Object value = cache.get(methodArgs).getObject();
+                    elementLock.unlock();
+                    System.out.println(Thread.currentThread().getName() + ": Element unlocked");
                     System.out.println("Return from cache. Method: " + method.getName());
-                    return cache.get(methodArgs);
+                    return value;
                 } else {
+                    LockAndObject lockAndObject = new LockAndObject(new ReentrantLock());
+                    cache.put(methodArgs, lockAndObject);
+                    lockAndObject.getLock().lock();
+                    System.out.println(Thread.currentThread().getName() + ": Element locked");
+                    cacheLock.unlock();
+                    System.out.println(Thread.currentThread().getName() + ": Cache unlocked");
                     System.out.println("Translation invoke to method. Method: " + method.getName());
                     Object result = method.invoke(t, args);
                     System.out.println("Save to cache. Method: " + method.getName());
-                    cache.put(methodArgs, result);
+                    cache.get(methodArgs).setObject(result);
+                    lockAndObject.getLock().unlock();
+                    System.out.println(Thread.currentThread().getName() + ": Element unlocked");
                     System.out.println("Return from cache. Method: " + method.getName());
                     return result;
                 }
@@ -75,6 +95,27 @@ public class ProxyUtils {
             int result = method.hashCode();
             result = 31 * result + Arrays.hashCode(args);
             return result;
+        }
+    }
+
+    private static class LockAndObject {
+        private final Lock lock;
+        private Object object;
+
+        public LockAndObject(Lock lock) {
+            this.lock = lock;
+        }
+
+        public Lock getLock() {
+            return lock;
+        }
+
+        public Object getObject() {
+            return object;
+        }
+
+        public void setObject(Object object) {
+            this.object = object;
         }
     }
 

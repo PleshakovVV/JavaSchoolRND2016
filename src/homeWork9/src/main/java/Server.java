@@ -22,6 +22,7 @@ public class Server {
                 while (!Thread.currentThread().isInterrupted()) {
                     try {
                         Socket socket = serverSocket.accept();
+
                     } catch (SocketTimeoutException e) {
                         //NOPE
                     }
