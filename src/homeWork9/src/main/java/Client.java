@@ -18,22 +18,30 @@ import java.net.Socket;
  */
 public class Client extends Application {
     private static final double DOUBLE_SPACE = 10.0D;
-    private Socket socket;
-    private TextArea messageTextArea  = new TextArea();
+    private Socket socket = null;
+    private ObjectOutput objectOutput;
+    private TextArea inMessagesTextArea;
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        socket = new Socket("localhost", 5151);
+    public void start(Stage primaryStage) {
+        try {
+            socket = new Socket("localhost", 5151);
+        }
+        catch (IOException e) {
+            System.out.println("Error occur during open socket.");
+            System.exit(0);
+        }
 
         final Socket finalSocket = socket;
         new Thread(() -> {
-            while (true) {
+            while (!Thread.currentThread().isInterrupted()) {
                 try {
-                    BufferedReader BR = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                    messageTextArea.appendText(BR.readLine());
+                    ObjectInput OI = new ObjectInputStream(finalSocket.getInputStream());
+                    Message message = (Message)OI.readObject();
+                    inMessagesTextArea.appendText(message.toString());
 
-                } catch (IOException e) {
-                    e.printStackTrace();
+                } catch (IOException|ClassNotFoundException e) {
+                    Thread.currentThread().interrupt();
                 }
             }
         }).start();
@@ -49,6 +57,7 @@ public class Client extends Application {
         TextField loginTextField = new TextField();
 
         Label messageLabel = new Label("Message:");
+        TextArea messageTextArea  = new TextArea();
         messageTextArea.setPrefRowCount(3);
 
         gridPane.getChildren().addAll(loginLabel, loginTextField, messageLabel, messageTextArea);
@@ -61,13 +70,21 @@ public class Client extends Application {
         alignVBox.setSpacing(DOUBLE_SPACE);
         Button sendButton = new Button("Send");
         sendButton.setOnAction((actionEvent) -> {
-            BufferedWriter BW = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            BW.write();
+            Message message = new Message(loginTextField.getText(), messageTextArea.getText());
+            try {
+                if (objectOutput == null) {
+                    objectOutput = new ObjectOutputStream(socket.getOutputStream());
+                }
+                objectOutput.writeObject(message);
+                objectOutput.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         });
         alignVBox.getChildren().addAll(sendButton, new Label("Messages:"));
         alignVBox.setAlignment(Pos.CENTER);
 
-        TextArea inMessagesTextArea = new TextArea();
+        inMessagesTextArea = new TextArea();
 
         vBox.getChildren().addAll(gridPane, alignVBox, inMessagesTextArea);
 
