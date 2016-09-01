@@ -16,7 +16,7 @@ public class ChatServer {
     private static final int CLIENT_NUMBER = 2;
     private static final Map<Socket, Object> sockets = new ConcurrentHashMap<>();
     private static final int TIMEOUT = 5000;
-    public static final int PORT = 5151;
+    private static final int PORT = 5151;
 
     private static final Object emptyObject = new Object();
 

@@ -24,10 +24,6 @@
         <processorPath useClasspath="true" />
         <module name="Chat" />
         <module name="Lambda (1) (homeWork11)" />
-        <module name="Messenger" />
-        <module name="ReverseIterator" />
-        <module name="Threading1" />
-        <module name="Threading1_2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
