@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Chat" />
         <module name="Lambda (1) (homeWork11)" />
         <module name="Messenger" />
         <module name="ReverseIterator" />
@@ -30,11 +31,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Chat" target="1.8" />
       <module name="Lambda" target="1.8" />
       <module name="Lambda (1) (homeWork11)" target="1.8" />
-      <module name="Messenger" target="1.8" />
-      <module name="ReverseIterator" target="1.8" />
-      <module name="Threading1" target="1.8" />
+      <module name="Messenger" target="1.5" />
+      <module name="ReverseIterator" target="1.5" />
+      <module name="Threading1" target="1.5" />
       <module name="Threading1_2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
