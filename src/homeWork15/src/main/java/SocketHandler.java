@@ -1,6 +1,7 @@
 import java.io.*;
 import java.net.Socket;
 import java.util.Map;
+import java.util.concurrent.Semaphore;
 
 /**
  * Created by Master on 31.08.2016.
@@ -8,10 +9,12 @@ import java.util.Map;
 public class SocketHandler implements Runnable {
     private Socket socket;
     private Map<Socket, Object> sockets;
+    private Semaphore semaphore;
 
-    public SocketHandler(Socket socket, Map<Socket, Object> sockets) {
+    public SocketHandler(Socket socket, Map<Socket, Object> sockets, Semaphore semaphore) {
         this.socket = socket;
         this.sockets = sockets;
+        this.semaphore = semaphore;
     }
 
     @Override
@@ -42,6 +45,7 @@ public class SocketHandler implements Runnable {
             System.out.println("An error occur: " + e.getMessage() + "Cause: " + e.getCause());
             System.out.println("Removing socket from list of connections.");
             sockets.remove(socket);
+            semaphore.release();
             System.out.println("Socket removed.");
         }
 

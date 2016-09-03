@@ -15,6 +15,7 @@ public class ChatServer {
 
     private static final int CLIENT_NUMBER = 2;
     private static final Map<Socket, Object> sockets = new ConcurrentHashMap<>();
+    private static final Semaphore CLIENT_NUMBER_SEMAPHORE = new Semaphore(CLIENT_NUMBER);
     private static final int TIMEOUT = 5000;
     private static final int PORT = 5151;
 
@@ -32,7 +33,7 @@ public class ChatServer {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
                     Socket socket = serverSocket.accept();
-                    if (sockets.size() == CLIENT_NUMBER) {
+                    if (!CLIENT_NUMBER_SEMAPHORE.tryAcquire()) {
                         BufferedWriter BW = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
                         BW.write("The limit of clients is reached. Try to connect later.");
                         BW.flush();
@@ -42,7 +43,7 @@ public class ChatServer {
                     else {
                         sockets.put(socket, emptyObject);
                         System.out.println("Get new connection. Number of connections is: " + sockets.size());
-                        executorService.submit(new SocketHandler(socket, sockets));
+                        executorService.submit(new SocketHandler(socket, sockets, CLIENT_NUMBER_SEMAPHORE));
                     }
                      
                 } catch (SocketTimeoutException e) {
