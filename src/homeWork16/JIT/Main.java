@@ -1,4 +1,4 @@
-package homeWork16;
+package homeWork16.JIT;
 
 import java.util.HashMap;
 import java.util.Map;
