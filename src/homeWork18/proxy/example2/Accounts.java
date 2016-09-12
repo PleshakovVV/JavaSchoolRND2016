@@ -5,7 +5,7 @@ package homeWork18.proxy.example2;
  */
 public class Accounts {
     public static IAccount getAccount(String account) throws IllegalArgumentException{
-        for (int i = account.length() - 1; i > 0; i--) {
+        for (int i = account.length() - 1; i >= 0; i--) {
             if (!Character.isDigit(account.charAt(i))) {
                 throw new IllegalArgumentException("Account must consist only digits");
             }
