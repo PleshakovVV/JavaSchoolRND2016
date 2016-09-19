@@ -71,6 +71,21 @@ class Person implements Comparable<Person>{
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj == null) return false;
+        if (obj.getClass() != this.getClass()) return false;
+        Person other = (Person)obj;
+        return this.name.equals(other.name) && (this.age == other.age);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age;
+        return result;
+    }
+
+    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
