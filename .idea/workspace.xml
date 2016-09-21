@@ -1,215 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="after sonar cube">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/AppStart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/CountTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/SumHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/ThreadingPool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/test-classes/ThreadingPullTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/classes/AppStart$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/classes/AppStart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/classes/ThreadPool$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/classes/ThreadPool$ThreadWorker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/classes/ThreadPool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/test-classes/ThreadPoolTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/target/classes/ChatClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/target/classes/ChatServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/target/classes/SocketHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/.sonar/.sonar_lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/target/classes/ReverseIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/target/test-classes/TestReverseIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/target/classes/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/target/classes/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/target/classes/Server.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/target/classes/SocketHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/Detail.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/EULA.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/IntelChipset.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/ListDevices.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/TableTextServiceSimplifiedZhengMa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/test.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/vmware-0.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/vmware-1.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/vmware-2.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/Data/vmware.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/classes/settings.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/src/test/java/settings.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/surefire-reports/TEST-ThreadPoolTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/target/surefire-reports/ThreadPoolTest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/.sonar/report-task.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/target/surefire-reports/TEST-TestReverseIterator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/target/surefire-reports/TestReverseIterator.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2001/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2001/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2001/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2002/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2002/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2002/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2019/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2019/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2020/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2020/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2045/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2045/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork17/sonar-project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/other/Lesson 13/~$ JMM hw [v1].docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/other/Lesson 13/~$Лекция 13 JMM.pptx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2001/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2001/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2001/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2001/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2001/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2001/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2002/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2002/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2002/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2002/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2002/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2002/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2019/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2019/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2019/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2019/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2019/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2019/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2020/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2020/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2020/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2020/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2020/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2020/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2035/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2035/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2035/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2035/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2035/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2035/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2045/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2045/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2045/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2045/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2045/output.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2045/output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2051/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2051/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2051/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2051/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2056/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2056/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork1/_2056/input.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork1/_2056/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork10/Lambda.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork10/Lambda.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork10/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork10/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork10/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork10/src/main/java/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork10/src/main/java/TwoParameterValidatable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork10/src/main/java/TwoParameterValidatable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/Threading1.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/Threading1.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/CountTask.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/CountTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/Detail.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/Detail.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/EULA.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/EULA.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/FairyTell.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/FairyTell.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/IntelChipset.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/IntelChipset.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/ListDevices.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/ListDevices.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/TableTextServiceSimplifiedZhengMa.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/TableTextServiceSimplifiedZhengMa.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/license.txt" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/test.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/test.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/vmware-0.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/vmware-0.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/vmware-1.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/vmware-1.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/vmware-2.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/vmware-2.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/Data/vmware.log" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/Data/vmware.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/SumHolder.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/SumHolder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/ThreadingPool.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/ThreadingPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/main/java/settings.ini" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/main/java/settings.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/test/java/ThreadingPullTest.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/test/java/ThreadingPullTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11/src/test/java/settings.ini" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/src/test/java/settings.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/Threading1_2.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/Threading1_2.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/src/main/java/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/src/main/java/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/src/main/java/ThreadPool.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/src/main/java/ThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/src/main/java/settings.ini" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/src/main/java/settings.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/src/test/java/ThreadPoolTest.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/src/test/java/ThreadPoolTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork11_2/src/test/java/settings.ini" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/target/test-classes/settings.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task1/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task1/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task1/Task.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task1/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task2/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task2/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task2/Context.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task2/Context.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task2/ExecutionManager.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task2/ExecutionManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork13/task2/ExecutionManagerImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/task2/ExecutionManagerImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/Cache.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/Cache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/Cosinusable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/Cosinusable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/ProxyUtils.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/ProxyUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/Sinusable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/Sinusable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/SinusableImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/SinusableImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork14/Task.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork14/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork15/Chat.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/Chat.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork15/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork15/src/main/java/ChatClient.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/src/main/java/ChatClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork15/src/main/java/ChatServer.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/src/main/java/ChatServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork15/src/main/java/SocketHandler.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork15/src/main/java/SocketHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork16/GC/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork16/GC/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork16/JIT/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork16/JIT/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/dataClumps/bad/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/dataClumps/bad/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/dataClumps/good/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/dataClumps/good/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/longMethod/bad/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/longMethod/bad/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/longMethod/good/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/longMethod/good/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/bad/Airplane.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/bad/Airplane.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/bad/Bird.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/bad/Bird.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/bad/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/bad/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/good/Airplane.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/good/Airplane.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/good/Bird.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/good/Bird.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork17/refuseBequest/good/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork17/refuseBequest/good/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/GoodPurchasingAgent.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/GoodPurchasingAgent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/Product.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/Purchasable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/Purchasable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/PurchasingAgent.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/PurchasingAgent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example1/SimplePurchaseAgent.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example1/SimplePurchaseAgent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example2/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example2/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example2/Printable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example2/Printable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example2/Printer.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example2/Printer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example2/PrinterWithCounter.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example2/PrinterWithCounter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/decorator/example2/SimplePrinter.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/decorator/example2/SimplePrinter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example1/Evaluatable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example1/Evaluatable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example1/Function.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example1/Function.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example1/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example1/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example1/SynchronizedProxy.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example1/SynchronizedProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/Accounts.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/Accounts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/IAccount.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/IAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/LoggedTransfer.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/LoggedTransfer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/Transferable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/Transferable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork18/proxy/example2/TransferableImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork18/proxy/example2/TransferableImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/AlphaSinus.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/AlphaSinus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Command.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Cosinus.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Cosinus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Evaluator.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Evaluator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Sinus.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Sinus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork19/command/Tangens.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork19/command/Tangens.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork2/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork2/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork3/AL_vs_LL/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork3/AL_vs_LL/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork3/Main.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork3/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork4/LinkedList.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork4/LinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork4/test.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork4/test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork5/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork5/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/Cache.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Cache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/Cosinusable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Cosinusable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/ProxyUtils.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/ProxyUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/Sinusable.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Sinusable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork6/SinusableImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/SinusableImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork7/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/AppStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork7/Plugin.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/Plugin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork7/PluginManager.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/PluginManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork7/temp/PluginImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/temp/PluginImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/compiler.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/copyright/profiles_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/encodings.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/libraries/Maven__junit_junit_4_0.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/libraries/Maven__junit_junit_4_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/misc.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/modules.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/ReverseIterator.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/ReverseIterator.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/homeWork8.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/homeWork8.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/src/main/java/ReverseIterator.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/src/main/java/ReverseIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork8/src/test/java/TestReverseIterator.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/src/test/java/TestReverseIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/Messenger.iml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/Messenger.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/pom.xml" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/src/main/java/Client.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/src/main/java/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/src/main/java/Message.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/src/main/java/Message.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/src/main/java/Server.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/src/main/java/Server.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/homeWork9/src/main/java/SocketHandler.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/src/main/java/SocketHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2019/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2019/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2020/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2020/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2035/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2045/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaSchoolRND2016/homeWork1/_2045/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/homeWork17/sonar-project.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
@@ -237,108 +30,7 @@
     <favorites_list name="JavaSchoolRND2016" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/Cache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/AppStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/ProxyUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sinusable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/Sinusable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SinusableImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/SinusableImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork14/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork16/GC/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork16/JIT/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork7/AppStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PluginImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork7/temp/PluginImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -511,6 +203,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="homeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homeWorks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homeWork6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1216,12 +930,19 @@
       <option name="project" value="LOCAL" />
       <updated>1473958479293</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="after sonar cube">
+      <created>1474440607049</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1474440607049</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1235,7 +956,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476191" sideWeight="0.49462366" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476191" sideWeight="0.49462366" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982839" sideWeight="0.50537634" order="2" side_tool="true" content_ui="tabs" />
