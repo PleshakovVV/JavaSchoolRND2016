@@ -1,34 +1,29 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import javax.sql.DataSource;
 import java.util.List;
 
 /**
  * Created by Master on 28.09.2016.
  */
 public class AppStart {
-    private static String URL = "jdbc:h2:tcp://localhost/~/test;USER=sa;password=";
-
     public static void main(String[] args) {
 
-        try (Connection connection = DriverManager.getConnection(URL)) {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("context.xml");
+        Utils.createTables((DataSource)applicationContext.getBean("dataSource"));
 
-            //Utils.createTables(connection);
-            String clientName = "Jhon Kirbi";
-            Client client = new Client(clientName);
-            ClientDAO.saveNewClient(client, connection);
+        ClientDAO clientDAO = new ClientDAOImpl((DataSource) applicationContext.getBean("dataSource"));
 
-            List<Client> clients = ClientDAO.getClientByName(clientName,connection);
-            Client clientFromDB = null;
-            if (clients.size() > 0) {
-                clientFromDB = clients.get(0);
-            }
-            System.out.println(clientFromDB);
+        String clientName = "Jhon Kirbi";
+        Client client = new Client(clientName);
+        clientDAO.saveNewClient(client);
 
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
+        List<Client> clients = clientDAO.getClientByName(clientName);
+        Client clientFromDB = null;
+        if (clients.size() > 0) {
+            clientFromDB = clients.get(0);
         }
+        System.out.println(clientFromDB);
     }
 }

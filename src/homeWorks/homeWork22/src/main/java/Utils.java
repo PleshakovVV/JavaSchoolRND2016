@@ -1,3 +1,4 @@
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -18,7 +19,8 @@ public class Utils {
             "primary key(id),\n" +
             "saldo number(10,2) default 0,\n" +
             "id_client bigint not null,\n" +
-            "foreign key(id_client) references clients(id)\n" +
+            "foreign key(id_client) references clients(id),\n" +
+            "account char(20) unique not null\n" +
             ")";
     private static String CREATE_DOCUMENTS_QUERY = "create table documents (\n" +
             "id bigint,\n" +
@@ -32,13 +34,18 @@ public class Utils {
             "doc_date timestamp default current_timestamp\n" +
             ")";
 
-    public static void createTables(Connection connection) throws SQLException {
+    public static void createTables(DataSource dataSource) {
 
-        Statement statement = connection.createStatement();
-        statement.executeUpdate(CREATE_CLIENTS_QUERY);
-        statement.executeUpdate(CREATE_ACCOUNT_QUERY);
-        statement.executeUpdate(CREATE_DOCUMENTS_QUERY);
+        try {
+            Connection connection = dataSource.getConnection();
+            Statement statement = connection.createStatement();
+            statement.executeUpdate(CREATE_CLIENTS_QUERY);
+            statement.executeUpdate(CREATE_ACCOUNT_QUERY);
+            statement.executeUpdate(CREATE_DOCUMENTS_QUERY);
 
-        connection.commit();
+            connection.commit();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
