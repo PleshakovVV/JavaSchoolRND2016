@@ -23,7 +23,7 @@ public class Utils {
             "account char(20) unique not null\n" +
             ")";
     private static String CREATE_DOCUMENTS_QUERY = "create table documents (\n" +
-            "id bigint,\n" +
+            "id bigint auto_increment,\n" +
             "primary key(id),\n" +
             "account_dt bigint not null,\n" +
             "foreign key(account_dt) references accounts(id),\n" +

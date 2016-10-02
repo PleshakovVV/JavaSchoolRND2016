@@ -17,6 +17,8 @@ public class AccountDAOImpl implements AccountDAO {
             "select a.id, a.saldo, a.id_client, a.account from accounts a where a.id_client = ?";
     private final static String SELECT_ACCOUNT_BY_ID =
             "select a.id, a.saldo, a.id_client, a.account from accounts a where a.id = ?";
+    private final static String SELECT_ACCOUNT_BY_ACCOUNT_NUMBER =
+            "select a.id, a.saldo, a.id_client, a.account from accounts a where a.account = ?";
     private final static String UPDATE_ACCOUNT_QUERY =
             "update accounts set (saldo, id_client, account) = (?, ?, ?)";
 
@@ -37,6 +39,16 @@ public class AccountDAOImpl implements AccountDAO {
     @Override
     public Account getAccountById(long id) {
         List<Account> accounts = jdbcTemplate.query(SELECT_ACCOUNT_BY_ID, new Object[]{id},
+                new AccountMapper(this.applicationContext));
+        if (accounts == null || accounts.size() == 0) {
+            return null;
+        }
+        return accounts.get(0);
+    }
+
+    @Override
+    public Account getAccountByAccountNumber(String accountNumber) {
+        List<Account> accounts = jdbcTemplate.query(SELECT_ACCOUNT_BY_ACCOUNT_NUMBER, new Object[]{accountNumber},
                 new AccountMapper(this.applicationContext));
         if (accounts == null || accounts.size() == 0) {
             return null;

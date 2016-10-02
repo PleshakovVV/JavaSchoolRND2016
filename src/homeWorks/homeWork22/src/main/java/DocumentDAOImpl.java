@@ -28,7 +28,7 @@ public class DocumentDAOImpl implements DocumentDAO {
 
     @Override
     public void saveDocument(Document document) {
-        jdbcTemplate.update(SAVE_DOCUMENT_QUERY, document.getAccountDt(), document.getAccountCt(),
+        jdbcTemplate.update(SAVE_DOCUMENT_QUERY, document.getAccountDt().getId(), document.getAccountCt().getId(),
                 document.getDocumentSum(), document.getPurpose(), document.getDocumentDate());
     }
 
@@ -40,7 +40,7 @@ public class DocumentDAOImpl implements DocumentDAO {
 
     @Override
     public void updateDocument(Document document) {
-        jdbcTemplate.update(UPDATE_DOCUMENT_QUERY, document.getAccountDt(), document.getAccountCt(),
+        jdbcTemplate.update(UPDATE_DOCUMENT_QUERY, document.getAccountDt().getId(), document.getAccountCt().getId(),
                 document.getDocumentSum(), document.getPurpose(), document.getDocumentDate(), document.getId());
     }
 }
