@@ -21,6 +21,7 @@ public class AppStart {
         String clientName = "Jhon Kirbi";
 
         // Print out test data
+        System.out.println("\n\n");
         ClientDAO clientDAO = new ClientDAOImpl(applicationContext);
         List<Client> clients = clientDAO.getClientByName(clientName);
         Client targetClient = null;
@@ -35,8 +36,37 @@ public class AppStart {
             if (accounts != null && accounts.size() > 0) {
                 account = accounts.get(0);
                 System.out.println("Account number: " + account.getAccountNumber());
+                System.out.println("Start saldo: " + account.getSaldo());
             }
         }
+        DocumentDAO documentDAO = new DocumentDAOImpl(applicationContext);
+        System.out.println("Client name\t\t\tAccount number\t\t\tType op\t\tSum op");
+        System.out.println("---------------------------------------------------------------");
+        if (account != null) {
+            List<Document> documents = documentDAO.getDocumentsByAccount(account);
+            BigDecimal sum = BigDecimal.valueOf(0,2);
+            for (Document doc : documents) {
+                if (doc.getAccountDt().equals(account)) {
+                    System.out.print(doc.getAccountCt().getClient().getName());
+                    System.out.print("\t\t");
+                    System.out.print(doc.getAccountCt().getAccountNumber());
+                    System.out.print("\tCredit\t");
+                    System.out.println(doc.getDocumentSum());
+                    sum = sum.subtract(doc.getDocumentSum());
+                }
+                else {
+                    System.out.print(doc.getAccountDt().getClient().getName());
+                    System.out.print("\t\t");
+                    System.out.print(doc.getAccountDt().getAccountNumber());
+                    System.out.print("\tDebet\t");
+                    System.out.println(doc.getDocumentSum());
+                    sum = sum.add(doc.getDocumentSum());
+                }
+            }
+            System.out.println("---------------------------------------------------------------");
+            System.out.println("End saldo: " + sum);
+        }
+
     }
 
     private static void fillDB(ApplicationContext applicationContext) {
