@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="acab898e-2184-4f47-8cc5-da070dcc8393" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Account.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AppStart.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AppStart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java" />
     </list>
     <ignored path="JavaSchoolRND2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,26 +36,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppStart.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppStart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AppStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocumentDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java">
+      <file leaf-file-name="AccountDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="113">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientDAOImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,16 +134,16 @@
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAO.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountMapper.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Client.java" />
-        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Document.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAO.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentMapper.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Utils.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Account.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AppStart.java" />
+        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -1115,7 +1122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475434139046</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="homeWork22 done. I think...">
+      <created>1475436489909</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1475436489909</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1209,7 +1223,8 @@
     <MESSAGE value="class" />
     <MESSAGE value="homeWork22 in process" />
     <MESSAGE value="homeWork22 almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork22 almost done" />
+    <MESSAGE value="homeWork22 done. I think..." />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork22 done. I think..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1490,14 +1505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -1535,17 +1542,9 @@
         <state relative-caret-position="153">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="50" column="112" selection-start-line="50" selection-start-column="112" selection-end-line="50" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1569,7 @@
         <state relative-caret-position="425">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1588,16 +1587,16 @@
         <state relative-caret-position="300">
           <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding>
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1976#1977#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/DocumentDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1606,11 +1605,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AppStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/AccountDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork22/src/main/java/ClientDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

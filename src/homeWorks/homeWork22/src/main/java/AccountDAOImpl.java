@@ -27,7 +27,7 @@ public class AccountDAOImpl implements AccountDAO {
 
     public AccountDAOImpl(ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
-        this.jdbcTemplate = new JdbcTemplate((DataSource)applicationContext.getBean("dataSource"));
+        this.jdbcTemplate = new JdbcTemplate(applicationContext.getBean("dataSource", DataSource.class));
     }
 
     @Override

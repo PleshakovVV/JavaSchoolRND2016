@@ -22,7 +22,7 @@ public class ClientDAOImpl implements ClientDAO {
     private JdbcTemplate jdbcTemplate;
 
     public ClientDAOImpl(ApplicationContext applicationContext) {
-        jdbcTemplate = new JdbcTemplate((DataSource) applicationContext.getBean("dataSource"));
+        jdbcTemplate = new JdbcTemplate(applicationContext.getBean("dataSource", DataSource.class));
     }
 
     public void saveNewClient(Client client) {
