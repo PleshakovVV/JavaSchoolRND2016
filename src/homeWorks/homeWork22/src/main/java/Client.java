@@ -14,6 +14,10 @@ public class Client {
         this.name = name;
     }
 
+    public boolean isSaved() {
+        return this.id != 0;
+    }
+
     public String getName() {
         return name;
     }

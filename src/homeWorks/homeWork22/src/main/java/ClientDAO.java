@@ -7,4 +7,6 @@ import java.util.List;
 public interface ClientDAO {
     void saveNewClient(Client client);
     List<Client> getClientByName(String name);
+    Client getClientById(long id);
+    void updateClient(Client client);
 }

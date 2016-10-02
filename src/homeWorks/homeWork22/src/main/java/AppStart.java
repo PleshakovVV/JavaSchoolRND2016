@@ -1,7 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import javax.sql.DataSource;
 import java.util.List;
 
 /**
@@ -11,9 +10,9 @@ public class AppStart {
     public static void main(String[] args) {
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("context.xml");
-        Utils.createTables((DataSource)applicationContext.getBean("dataSource"));
+        //Utils.createTables((DataSource)applicationContext.getBean("dataSource"));
 
-        ClientDAO clientDAO = new ClientDAOImpl((DataSource) applicationContext.getBean("dataSource"));
+        ClientDAO clientDAO = new ClientDAOImpl(applicationContext);
 
         String clientName = "Jhon Kirbi";
         Client client = new Client(clientName);
@@ -25,5 +24,12 @@ public class AppStart {
             clientFromDB = clients.get(0);
         }
         System.out.println(clientFromDB);
+        Account account = Account.createNewAccount(clientFromDB, "40817810333333333333");
+        AccountDAO accountDAO = new AccountDAOImpl(applicationContext);
+        accountDAO.saveAccount(account);
+        List<Account> accounts = accountDAO.getAccountByClient(clientFromDB);
+        for (Account acc : accounts) {
+            System.out.println(acc);
+        }
     }
 }
