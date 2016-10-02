@@ -15,21 +15,17 @@ public class AppStart {
         ClientDAO clientDAO = new ClientDAOImpl(applicationContext);
 
         String clientName = "Jhon Kirbi";
-        Client client = new Client(clientName);
-        clientDAO.saveNewClient(client);
-
+        String bankName = "Morgan Stanley";
+        clientDAO.saveNewClient(new Client(clientName));
+        clientDAO.saveNewClient(new Client(bankName));
         List<Client> clients = clientDAO.getClientByName(clientName);
-        Client clientFromDB = null;
-        if (clients.size() > 0) {
-            clientFromDB = clients.get(0);
+        Client client = null;
+        if (clients != null || clients.size() != 0) {
+            client = clients.get(0);
         }
-        System.out.println(clientFromDB);
-        Account account = Account.createNewAccount(clientFromDB, "40817810333333333333");
-        AccountDAO accountDAO = new AccountDAOImpl(applicationContext);
-        accountDAO.saveAccount(account);
-        List<Account> accounts = accountDAO.getAccountByClient(clientFromDB);
-        for (Account acc : accounts) {
-            System.out.println(acc);
+        if (client != null) {
+            AccountDAO accountDAO = new AccountDAOImpl(applicationContext);
+            accountDAO.saveAccount(Account.createNewAccount(client, "40817810812343456878"));
         }
     }
 }

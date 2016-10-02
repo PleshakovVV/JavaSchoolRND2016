@@ -29,7 +29,7 @@ public class Utils {
             "foreign key(account_dt) references accounts(id),\n" +
             "account_ct bigint not null,\n" +
             "foreign key(account_ct) references accounts(id),\n" +
-            "saldo number(10,2) not null,\n" +
+            "document_sum number(10,2) not null,\n" +
             "purpose varchar2(210) not null,\n" +
             "doc_date timestamp default current_timestamp\n" +
             ")";
