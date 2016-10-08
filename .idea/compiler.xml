@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BigApplication" />
+        <module name="BigApplicationHibernate" />
         <module name="Chat" />
         <module name="Lambda (1) (homeWork11)" />
         <module name="ReverseIterator" />
@@ -30,11 +31,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BigApplication" target="1.8" />
+      <module name="BigApplicationHibernate" target="1.8" />
       <module name="Chat" target="1.5" />
       <module name="Lambda" target="1.8" />
       <module name="Lambda (1) (homeWork11)" target="1.8" />
       <module name="Messenger" target="1.5" />
-      <module name="ReverseIterator" target="1.8" />
+      <module name="ReverseIterator" target="1.5" />
       <module name="Threading1" target="1.5" />
       <module name="Threading1_2" target="1.8" />
     </bytecodeTargetLevel>
