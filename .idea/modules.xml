@@ -3,14 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork22/BigApplication.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork22/BigApplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork23/BigApplicationHibernate.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork23/BigApplicationHibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork15/Chat.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork15/Chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSchoolRND2016.iml" filepath="$PROJECT_DIR$/JavaSchoolRND2016.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork10/Lambda.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork10/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork9/Messenger.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork9/Messenger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork8/ReverseIterator.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork8/ReverseIterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork11/Threading1.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork11/Threading1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/homeWorks/homeWork11_2/Threading1_2.iml" filepath="$PROJECT_DIR$/src/homeWorks/homeWork11_2/Threading1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/sbt/lessonJMS/src/async.iml" filepath="$PROJECT_DIR$/src/com/sbt/lessonJMS/src/async.iml" />
     </modules>
   </component>
 </project>
