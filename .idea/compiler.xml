@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="async" />
         <module name="BigApplication" />
+        <module name="BigApplicationHibernate" />
         <module name="Lambda (1) (homeWork11)" />
+        <module name="ReverseIterator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="async" target="1.8" />
+      <module name="async" target="1.5" />
       <module name="BigApplication" target="1.8" />
+      <module name="BigApplicationHibernate" target="1.5" />
       <module name="Lambda" target="1.8" />
       <module name="Messenger" target="1.5" />
+      <module name="ReverseIterator" target="1.8" />
       <module name="Threading1" target="1.5" />
       <module name="Threading1_2" target="1.8" />
     </bytecodeTargetLevel>

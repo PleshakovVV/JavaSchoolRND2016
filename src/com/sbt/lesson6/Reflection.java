@@ -20,6 +20,7 @@ public class Reflection {
             field.setAccessible(true);
             field.set(a, "22");
             System.out.println(field.get(a));
+            a.someMethod();
 
             Method m = I.class.getMethod("someMethod", String.class);
             m.invoke(a, "Hi");
@@ -48,7 +49,7 @@ class A implements I{
         System.out.println("From A: " + str);
     }
 
-    public void someMethod(String param) {
+    public void someMethod() {
         System.out.println(finalString);
     }
 }

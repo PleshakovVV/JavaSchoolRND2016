@@ -1,3 +1,5 @@
+package def;
+
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
 import org.junit.Test;
